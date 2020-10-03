@@ -1,0 +1,244 @@
+body{
+  font-size:12px;
+  letter-spacing: 2px;
+}
+
+p{
+  font-size:16px;
+  letter-spacing: 1px;
+}
+.navbar-brand{
+  font-size:25px;
+}
+
+#team-section{
+    background-image: url(../images/teambackground.png);
+    background-size: cover;
+   
+    padding: 120px 0px;
+}
+
+.team-title{
+    font-weight: bolder;
+    font-size: 35px;
+    margin-top:40px;
+}
+
+.teamsub-title{
+    font-weight: bold;
+}
+
+.team-box {
+    text-align:center;
+    margin-bottom: 20px;
+}
+
+.team-box img {
+    width:125px;
+    height:125px;
+    margin-bottom: 5px;
+}
+
+.team-box h5{
+    font-weight: bold;
+}
+
+.dropdown-flat .dropdown-menu{
+  border-radius: 0px;
+  border:none;
+  background:#3db36b;
+  color:#fff;
+}
+
+.dropdown-flat .dropdown-menu li a{
+  color:#fff;
+}
+
+.dropdown-flat .dropdown-menu li a:hover{
+  color:#fff;
+  background:#3db36b;
+}
+
+
+#main-section{
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) , url(../images/cover.jpg);
+  background-size: cover;
+  color: #fff;
+  padding: 130px 0px;
+}
+
+#main-section p{
+  text-transform: uppercase;
+}
+
+#main-section h1{
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+.btn-green{
+  background: #3db36b;
+  padding: 20px 30px;
+  color: #fff;
+  border-radius: 0%;
+  font-size:12px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+#main-section .btn-link{
+  color:#fff;
+  font-size:12px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+#about-section{
+  padding:150px 0px 100px 0px;
+}
+
+
+.stack-image::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.stack-item img{
+  width:250px;
+  height: 350px;
+  border:8px solid #3db36b;
+}
+
+.image-top{
+  float:left;
+  width:65%;
+  z-index: 1;
+  margin-left:10%;
+}
+
+.image-bottom{
+  float:right;
+  width:70%;
+  position: relative;
+  margin-top:-75%;
+  z-index: -99;
+}
+
+
+#testi-section{
+  background:#f8f9fa; 
+  padding: 80px 0px;
+}
+
+@keyframes pulse{
+  25%  {transform: scale(0.9);}
+  75%  {transform: scale(1.1);}
+}
+
+#animateSVG{
+  animation: pulse 3s linear infinite;
+}
+
+#testi-section h1{
+  padding:20px 25%;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+
+#news-section{
+  padding: 80px 0px;
+}
+
+#news-section h1{
+  font-weight:bold;
+  margin-bottom: 30px;
+}
+
+
+
+.card-img-overlay{
+  color:#fff;
+  background-color: rgba(3, 9, 29, 0.8);
+}
+
+.card-img-overlay .card-title{
+  font-weight: bolder;
+  font-size:30px;
+}
+
+ .card-link{
+  display: inline-block;
+  width:25%;
+  color:#3db36b;
+  font-weight: bold;
+  text-decoration:none;
+  font-size:16px;
+  border-bottom:1px solid #3db36b;
+  margin-top: 5px;
+  padding: 10px 0px 10px 0px;
+}
+
+
+
+#contact-section{
+  padding:50px 0px;
+}
+
+
+
+footer{
+  padding:20px 0px
+}
+
+
+.footer-logo{
+  font-weight: bolder;
+  font-size:30px;
+}
+
+.footer-link a{
+  text-transform: uppercase;
+  font-size: 12px;
+  padding:5px;
+}
+
+
+.contact-info{
+  padding: 50px 0px;
+}
+
+.contact-info h5{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size:16px;
+  margin: 20px 0px;
+}
+
+
+.media-link{
+  font-size:16px;
+  color:#3db36b;
+  border-bottom:1px solid #3db36b;
+  padding:10px 0px;
+}
+
+.media-link:hover{
+
+  color:#3db36b;
+  text-decoration: none;
+}
+
+#menu-section{
+  padding: 80px 0px;
+}
+
+#menu-section h1{
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+#menu-section .media{
+  margin-bottom: 25px;
+}
