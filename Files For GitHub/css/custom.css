@@ -1,0 +1,45 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#team-section{
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+#heading-text{
+  color:#483d41;
+  margin-bottom: 1em;
+}
+
+.team-box{
+  background:#f4f4f4;
+  padding-left: 2.5em;
+  position: relative;
+}
+
+
+.team-details{
+  bottom: 10px;
+  position:absolute;
+  transform-origin: bottom left;
+  transform: rotate(-90deg);
+}
+
+
+.team-details h4{
+   color: #483d41;
+}
+
+.dest-text{
+  font-size: 0.9rem;
+  color:#000;
+}
+
+.team-social{
+  text-align: center;
+  padding: 0.5em;
+}
+
+.team-social img{
+  padding:5px;
+}
