@@ -1,45 +1,25 @@
-body{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-#team-section{
-  padding-top: 3em;
-  padding-bottom: 3em;
-}
-
-#heading-text{
-  color:#483d41;
-  margin-bottom: 1em;
-}
-
-.team-box{
-  background:#f4f4f4;
-  padding-left: 2.5em;
-  position: relative;
-}
-
-
-.team-details{
-  bottom: 10px;
-  position:absolute;
-  transform-origin: bottom left;
-  transform: rotate(-90deg);
-}
-
-
-.team-details h4{
-   color: #483d41;
-}
-
-.dest-text{
-  font-size: 0.9rem;
-  color:#000;
-}
-
-.team-social{
+#contact-section{
+  background: url(../images/map.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 11em;
+  padding-bottom: 11em;
   text-align: center;
-  padding: 0.5em;
 }
 
-.team-social img{
-  padding:5px;
+#contact-section h3{
+  font-size: clamp(25px, 35px, 40px);
+}
+
+.call-btn{
+  margin-top: 2em;
+  background-color: #007fff;
+  color:#fff;
+  padding: 15px 30px;
+	border-radius: 25px;
+}
+
+.call-btn:hover{
+  color:#fff;
+  text-decoration: none;
 }
